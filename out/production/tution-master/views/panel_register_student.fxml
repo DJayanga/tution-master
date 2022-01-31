@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Font?>
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" prefHeight="540.0" prefWidth="750.0"
+            xmlns="http://javafx.com/javafx/11.0.1" fx:controller="controller.PanelRegisterStudentController">
+    <children>
+        <AnchorPane layoutX="24.0" layoutY="30.0" prefHeight="60.0" prefWidth="200.0" styleClass="panel-header"
+                    stylesheets="@styles/panel-style.css" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0"
+                    AnchorPane.topAnchor="0.0">
+            <children>
+                <Label layoutX="21.0" layoutY="20.0" styleClass="title-primary" stylesheets="@styles/common-styels.css"
+                       text="Register Student"/>
+            </children>
+        </AnchorPane>
+        <JFXTextField fx:id="studentFullNameInput" labelFloat="true" layoutX="35.0" layoutY="93.0" prefHeight="30.0"
+                      prefWidth="307.0" promptText="Student Full Name" AnchorPane.leftAnchor="30.0">
+            <font>
+                <Font size="14.0"/>
+            </font>
+        </JFXTextField>
+        <JFXComboBox fx:id="selectGenderInput" labelFloat="true" layoutX="373.0" layoutY="92.0" prefHeight="30.0"
+                     prefWidth="283.0" promptText="Select Gender"/>
+        <JFXComboBox fx:id="selectYearInput" labelFloat="true" layoutX="35.0" layoutY="218.0"
+                     onAction="#changeYearOnAction" prefHeight="30.0" prefWidth="307.0" promptText="Select Year"
+                     AnchorPane.leftAnchor="30.0"/>
+        <JFXTextField fx:id="telephoneNumberInput" labelFloat="true" layoutX="38.0" layoutY="281.0" prefHeight="30.0"
+                      prefWidth="307.0" promptText="Telephone Number" AnchorPane.leftAnchor="30.0">
+            <font>
+                <Font size="14.0"/>
+            </font>
+        </JFXTextField>
+        <JFXTextField fx:id="addressInput" labelFloat="true" layoutX="35.0" layoutY="154.0" prefHeight="30.0"
+                      prefWidth="628.0" promptText="Address" AnchorPane.leftAnchor="30.0">
+            <font>
+                <Font size="14.0"/>
+            </font>
+        </JFXTextField>
+        <JFXButton layoutX="260.0" layoutY="476.0" onAction="#saveStudentOnAction" prefHeight="43.0" prefWidth="113.0"
+                   styleClass="action-primary" stylesheets="@styles/form-styles.css" text="Save Student"/>
+        <JFXButton layoutX="387.0" layoutY="476.0" onAction="#clearInputOnAction" prefHeight="43.0" prefWidth="113.0"
+                   styleClass="action-primary" stylesheets="@styles/form-styles.css" text="Clear"/>
+        <JFXComboBox fx:id="selectGradeInput" labelFloat="true" layoutX="373.0" layoutY="217.0" prefHeight="30.0"
+                     prefWidth="283.0" promptText="Select Grade"/>
+        <Label fx:id="formActionError" alignment="CENTER" contentDisplay="CENTER" layoutX="78.0" layoutY="443.0"
+               prefHeight="17.0" prefWidth="601.0" textFill="#ff4343"/>
+    </children>
+</AnchorPane>

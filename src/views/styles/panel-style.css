@@ -1,0 +1,40 @@
+.stage {
+    -fx-background-color: white;
+}
+
+.stage-title {
+    -fx-background-color: #537eff;
+}
+
+.stage-menu-area {
+    -fx-background-color: #4c61b4;
+}
+
+.panel-header {
+    -fx-background-color: #537eff;
+}
+
+.menu-btn {
+    -fx-background-color: #4c61b4;
+    -fx-text-fill: white;
+    -fx-border-radius: 0px;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-padding: 20px;
+}
+
+.menu-btn:hover {
+    -fx-text-fill: #4c61b4;
+    -fx-background-color: white;
+    -fx-border-radius: 0px;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-padding: 20px;
+}
+
+.dashboard-card {
+    -fx-background-image: url("/views/assests/card-bg.jpg");
+    -fx-background-position: top;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+}

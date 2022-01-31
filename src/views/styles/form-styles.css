@@ -1,0 +1,22 @@
+
+.form-label {
+    -fx-text-fill: #537eff;
+    -fx-font-size: 14;
+    -fx-font-weight: lighter;
+}
+
+/*button styles*/
+
+.action-primary {
+    -fx-background-color: #537eff;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+
+.action-primary:hover {
+    -fx-background-color: #69a5ff;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}

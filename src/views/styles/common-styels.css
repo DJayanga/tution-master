@@ -1,0 +1,66 @@
+/*stylesheet for common styles*/
+
+.scene-background {
+    -fx-background-color: white;
+    -fx-border-color: white;
+}
+
+.app-bar-bg {
+    -fx-background-color: #537eff;
+}
+
+.app-bar-title {
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+    -fx-font-family: Roboto;
+    -fx-font-weight: lighter;
+    -fx-font-size: 40;
+}
+
+.app-bar-title-2 {
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+    -fx-font-family: Roboto;
+    -fx-font-weight: lighter;
+    -fx-font-size: 14;
+}
+
+.app-bar-close {
+}
+
+.title-primary {
+    -fx-background-color: transparent;
+    -fx-text-fill: #FFFFFF;
+    -fx-font-family: Roboto;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+}
+
+.login_title {
+    -fx-background-color: transparent;
+    -fx-text-fill: #FFFFFF;
+    -fx-font-family: Roboto;
+    -fx-font-weight: bold;
+    -fx-font-size: 24;
+}
+
+.dashboard-btn {
+    -fx-background-color: #ffffff;
+    -fx-text-fill: #537eff;
+    -fx-font-weight: bold;
+}
+
+.dashboard-btn:hover {
+    -fx-background-color: #ffffff;
+    -fx-text-fill: #537eff;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+}
+
+.background{
+    /*-fx-background-color: white;*/
+    -fx-background-image: url("/views/assests/student_image_for_background.jpg");
+    -fx-background-position: top;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+}
